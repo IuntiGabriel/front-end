@@ -34,9 +34,9 @@ Soy un profesional con experiencia en administración de sistemas, redes y desar
 FRONT-END/
 ├── index.html
 ├── css/
-│ └── styles.css
-//└── img/
-└── tatuaje.jpg
+│   └── styles.css
+└── img/
+    └── tatuaje.jpg
 
 
 ## 🎯 Objetivos del proyecto
