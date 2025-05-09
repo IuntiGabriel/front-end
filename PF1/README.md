@@ -20,8 +20,8 @@ Soy un profesional con experiencia en administración de sistemas, redes y desar
 
 - Kubernetes
 - AWS
-- Java
-
+- JavaScript
+- Jenkins
 ## 🎨 Hobbies
 
 - Lectura
