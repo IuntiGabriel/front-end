@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gabriel Iunti - Portfolio</title>
   <link rel="stylesheet" href="css/styles.css">
-  <!-- Fuente personalizada estilo terminal -->
+   <!-- Fuente personalizada estilo terminal -->
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -13,20 +13,78 @@
     <h1>Gabriel Iunti</h1>
     <p>SysAdmin | DevOps | Developer</p>
     <nav>
-      <a href="mailto:iuntigabriel@gmail.com">Email</a> |
-      <a href="https://linkedin.com/in/iunti-gabriel" target="_blank">LinkedIn</a> |
-      <a href="https://github.com/IuntiGabriel" target="_blank">GitHub</a>
+      <ul class="nav-menu">
+        <li><a href="index.html">Inicio</a></li> 
+        <li><a href="mailto:iuntigabriel@gmail.com">Email</a></li> 
+        <li><a href="https://linkedin.com/in/iunti-gabriel" target="_blank">LinkedIn</a></li> 
+        <li><a href="https://github.com/IuntiGabriel" target="_blank">GitHub</a></li> 
+      </ul>
     </nav>
+
   </header>
 
   <main>
     <article>
+      <!-- SECCION SOBRE MI -->
       <section id="sobre-mi">
         <h2>Sobre mí</h2>
         <p>Soy especialista en infraestructura, redes y desarrollo de software. Me apasiona automatizar, resolver problemas y crear soluciones con impacto real.</p>
         <img src="img/chmod_777.png" alt="Tatuaje chmod 777" />
       </section>
+      <!-- FIN SECCION SOBRE MI -->
 
+      <!-- SECCION DESTACADO -->
+      <section class="destacado">
+        <div class="overlay">
+           <p class="mensaje">Automatización para todos</p>
+        </div>
+        <img src="img/devops-infinitos.jpg" alt="Infraestructura moderna">
+      </section>
+      <!-- FIN SECCION DESTACADO -->
+
+      <!-- SECCION TABLA1 -->
+      <section id="tabla1">
+        <h2>Tecnologías que manejo</h2>
+        <table class="tecnologias">
+          <thead>
+            <tr>
+              <th>Tecnología</th>
+              <th>Experiencia</th>
+              <th>Comentarios</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML5</td>
+              <td>Avanzado</td>
+              <td>Uso diario en desarrollo web.</td>
+            </tr>
+            <tr>
+              <td>CSS3</td>
+              <td>Avanzado</td>
+              <td>Diseño responsivo y efectos visuales.</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>Intermedio</td>
+              <td>Manipulación del DOM y APIs.</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>Intermedio</td>
+              <td>Automatización, análisis de datos.</td>
+            </tr>
+            <tr>
+              <td>Docker</td>
+              <td>Básico</td>
+              <td>Contenedores para entornos de desarrollo.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <!-- FIN SECCION TABLA1-->
+
+      <!-- SECCION TABLA -->
       <section id="tabla">
         <h2>Tecnologías y Hobbies</h2>
         <table>
@@ -61,7 +119,9 @@
           </tbody>
         </table>
       </section>
+      <!-- FIN SECCION SOBRE TABLA -->
 
+      <!-- FORMULARIO CONTACTO -->
       <section id="contacto">
         <h2>Contacto</h2>
         <form>
@@ -82,11 +142,15 @@
       </section>
     </article>
   </main>
-
+  <!-- FIN FORMULARIO CONTACTO -->
+ 
+  <!-- FOOTER -->
   <footer>
-    <p>    Hecho por Gabriel Iunti - 2025. Libre para usar y compartir bajo licencia 
-    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">
-      CC BY 4.0</p>
+    <p>Hecho por Gabriel Iunti - 2025. Libre para usar y compartir bajo licencia 
+      <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">
+        CC BY 4.0</a>.
+    </p>
   </footer>
+  <!-- FIN FOOTER -->
 </body>
 </html>
