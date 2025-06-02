@@ -13,6 +13,8 @@ FRONT-END/
 │   └── styles.css
 └── img/
     └── chmod_777.png
+    └── cubo-abstracto.jpg
+    └── devops-infinitos.jpg
 
 
 ## 🎯 Objetivos del proyecto
@@ -21,8 +23,8 @@ FRONT-END/
 - Aplicar buenas prácticas de diseño web.
 - Crear una interfaz atractiva y funcional que refleje mi identidad profesional.
 
-🌐 Rama del repositorio GitHub : [paginas-gh](https://github.com/IuntiGabriel/front-end/tree/paginas-gh)
-🌐 Link GitHub Pages: [paginas-gh](https://github.com/IuntiGabriel/front-end/tree/paginas-gh)
+🌐 Repositorio GitHub : [main](https://github.com/IuntiGabriel/front-end)
+🌐 Link GitHub Pages: [main](https://iuntigabriel.github.io/front-end/)
 
 
 
