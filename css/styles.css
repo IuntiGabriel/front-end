@@ -40,6 +40,7 @@ a:active {
 }
 
 header {
+  position: relative; /*agregado para posicionar los iconos sociales*/
   background-color: #111;
   text-align: center;
   padding: 2rem 1rem;
@@ -67,6 +68,40 @@ nav a:hover {
   color: #f0f;
 }
 
+/* ICOMOS */
+
+/*.social-icons {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  z-index: 100;
+}*/ /*iconos alienados a la derecha de header*/
+
+/*iconos alienados al centro o al valor del main*/
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 2rem 0 2rem;
+}
+
+
+.social-icons a {
+  /*color: #ccc;*/
+  color: #c0c;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #f0f;
+}
+
+
 /* NAV HORIZONTAL */
 .nav-menu {
   list-style-type: none;
@@ -80,7 +115,7 @@ nav a:hover {
 .nav-menu li a {
   color: #c0c;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.2rem;
   display: inline-block;
   border: 1px solid transparent;
   border-radius: 5px;
